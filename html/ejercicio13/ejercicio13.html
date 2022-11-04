@@ -24,7 +24,37 @@
     </fieldset>
     <fieldset>
         <legend>Elija la opción de entrega</legend>
-        
+        <input type="radio" name="envio">
+        <label for="envio">Recoger en el local</label><br>
+        <input type="radio" name="envio">
+        <label for="envio">Enviar a domicilio</label><br><br>
     </fieldset>
+    <fieldset> 
+        <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+        <input type="checkbox" name="envio">
+        <label for="envio">Enviar al domicilio</label><br>
+        <input type="checkbox" name="envio">
+        <label for="envio">Enviar por email</label><br><br>
+    </fieldset>
+    <fieldset> 
+        <legend>Elija su menu</legend>
+        <label for="dia">Tamaño del bocadillo</label><br>
+        <select id="dia" size="4">
+            <option value="pequeño">pequeño</option>
+            <option value="mediano">mediano</option>
+            <option value="grande">grande</option>
+            <option value="enorme">enorme</option>
+        </select><br><br>
+        <label for="dia">Contenido del bocadillo</label><br>
+        <select id="dia" size="4">
+            <option value="anchoas">anchoas</option>
+            <option value="calamares">calamares</option>
+            <option value="mejllones">mejllones</option>
+            <option value="jamon">jamon</option>
+        </select><br><br>
+        <label for="observaciones">Puede añadir alguna sugerencia</label><br><br>
+        <textarea id="observaciones" colums="50" rows="3"></textarea><br>
+    </fieldset><br>
+    <input type="submit" value="Enviar datos">
 </body>
 </html>
